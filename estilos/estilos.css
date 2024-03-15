@@ -130,3 +130,7 @@ section#imagem img{
     background-color: #e5c2a1;
     cursor: pointer; 
 }
+
+#forget::after{
+    content: '';
+}
