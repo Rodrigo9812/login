@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 *{
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -42,6 +43,7 @@ form{
 }
 
 section h1{
+    font-size: 1.5em;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 5px;
@@ -59,6 +61,14 @@ section h1{
 
 }
 
+.input2{
+    width: 214px;
+    height: 20px;
+    outline: solid 1px rgba(0, 0, 0, 0.29);
+    border-radius: 4px;
+    background-color: wheat;
+}
+
 #icone-s{
     padding: 2px;
     color: white;
@@ -73,58 +83,24 @@ section h1{
     vertical-align: middle;
 }
 
-#iemail{
-    width: 214px;
-    height: 20px;
-    outline: solid 1px rgba(0, 0, 0, 0.29);
-    border-radius: 4px;
-    background-color: wheat;
-}
-
-#isenha{
-    width: 214px;
-    height: 20px;
-    outline: solid 1px rgba(0, 0, 0, 0.29);
-    border-radius: 4px;
-    background-color: wheat;
-}
-
-#submit{
+.submit{
     width: 250px;
     height: 35px;
     background-color: #B0957B;
     color: white;
     border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
 }
 
-#submit:hover{
+.submit:hover{
     background-color: #e5c2a1;
     cursor: pointer;
-}
-
-#forget{
-    text-decoration: none;
-    color: white;
-    background-color: #B0957B;
-    width: 249px;
-    height: 33px;
-    border-radius: 5px;
-    display: flex;
-    margin-top: 4px;
-    border: 1px solid black;
-    align-items: center;
-    justify-content: center;
-}
-
-#forget:hover{
-    background-color: #e5c2a1;
-    cursor: pointer; 
 }
 
 #cadastro a{
     display: block;
     text-decoration: none;
-    padding-top: 7px;
     text-align: center;
     color: #7a6754;
 }
