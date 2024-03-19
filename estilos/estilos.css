@@ -69,14 +69,14 @@ section h1{
     background-color: wheat;
 }
 
-#icone-s{
+#icone-e{
     padding: 2px;
     color: white;
     line-height: 1;
     vertical-align: middle;
 }
 
-#icone-e{
+#icone-s{
     padding: 2px;
     color: white;
     line-height: 1;
@@ -97,6 +97,8 @@ section h1{
     background-color: #e5c2a1;
     cursor: pointer;
 }
+
+
 
 #cadastro a{
     display: block;
