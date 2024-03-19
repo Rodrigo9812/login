@@ -21,9 +21,6 @@ main{
     background-size: cover;
     background-attachment:fixed ;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.288);
-}
-
-main#login-c{
     border-radius: 10px;
     background-color: white;
     width: 270px;
@@ -36,16 +33,12 @@ main#login-c{
     flex-direction: column-reverse;
 }
 
-#principal{
-    height: 270px;
-}
-
 form{
     border-radius: 10px 10px 0px 0px;
     background-color: white;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
-
+    height: 270px;
 }
 
 section h1{
@@ -53,11 +46,8 @@ section h1{
     text-align: center;
     margin-bottom: 5px;
 }
-section#imagem img{
-    width: 300px;
-}
 
-#texto{
+.texto{
     margin-bottom: 5px;
 }
 
@@ -66,7 +56,7 @@ section#imagem img{
     margin-bottom: 5px;
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 0px;
+
 }
 
 #icone-s{
@@ -88,7 +78,7 @@ section#imagem img{
     height: 20px;
     outline: solid 1px rgba(0, 0, 0, 0.29);
     border-radius: 4px;
-    background-color: wheat;;
+    background-color: wheat;
 }
 
 #isenha{
@@ -131,9 +121,6 @@ section#imagem img{
     cursor: pointer; 
 }
 
-#forget::after{
-    content: '';
-}
 #cadastro a{
     display: block;
     text-decoration: none;
