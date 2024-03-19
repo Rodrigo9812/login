@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width:) {
-    
-    
+/*Todas as Midiast*/
+/*Typical breakpoints
+Pequenas telas: Até 600px
+celular: de 600px ate 768px
+Tablet: de 768px ate 992pxpx
+Desktop: 992px ate 1200px
+Grandes telas:acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    main#login-c{
+        width: 500px;
+    }
 }
