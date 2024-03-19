@@ -134,3 +134,14 @@ section#imagem img{
 #forget::after{
     content: '';
 }
+#cadastro a{
+    display: block;
+    text-decoration: none;
+    padding-top: 7px;
+    text-align: center;
+    color: #7a6754;
+}
+#cadastro a:hover{
+    text-decoration: underline;
+    color: black;
+}
