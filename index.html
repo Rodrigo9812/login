@@ -24,7 +24,7 @@
                             person
                         </span>
                     </label>
-                    <input type="text" name="email" id="iemail" class="input2" placeholder="Seu E-mail" required>
+                    <input type="email" name="email" id="iemail" class="input2" placeholder="Seu E-mail" required maxlength="30" >
                 </p>
 
                 <p class="input">
@@ -33,7 +33,7 @@
                             lock
                         </span>
                     </label>
-                    <input type="password" name="senha" id="isenha" class="input2" placeholder="Sua Senha" required>
+                    <input type="password" name="senha" id="isenha" class="input2" placeholder="Sua Senha" required minlength="4" maxlength="8" pattern="^[0-9]+$">
                 </p>
 
                 <p>
