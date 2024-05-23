@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+    <form action="index.html" method="post">
+        <h1>Cadastre-se</h1>
+       <p>
+            <label for="inome">Nome:</label> <br>
+            <input type="text" name="nome" id="inome" required>
+       </p>
+        <p>
+            <label for="itelefone">Telefone:</label> <br>
+            <input type="number" name="telefone" id="itelefone" required>
+        </p>
+        <p>
+            <label for="iemail">Email:</label> <br>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+        <p>
+            <label for="inascimento">Data de Nascimento:</label> <br>
+            <input type="date" name="nascimento" id="inascimento" required>
+        </p>
+        <p>
+            Sexo: <br>
+            <div id="data">
+                <label for="femi">Feminino</label>
+                <input type="radio" name="sex" id="femi"><br>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="masc">
+            </div>
+        </p>
+        <input type="button" value="cadastrar">
+        <a href="index.html">Cadastrar</a>
+    </form>
+</body>
+</html>
