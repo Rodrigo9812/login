@@ -59,17 +59,18 @@ section h1{
     margin-bottom: 5px;
     box-sizing: border-box;
     border-radius: 5px;
-
+    
 }
 
 .input2{
-    width: 214px;
+    width: 208px;
     height: 20px;
     outline: solid 1px rgba(0, 0, 0, 0.29);
     border-radius: 4px;
     background-color: wheat;
     border: none;
     transform: translateY(2px);
+    padding-left: 5px;
 }
 
 #icone-e{
